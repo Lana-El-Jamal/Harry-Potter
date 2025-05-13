@@ -64,6 +64,10 @@ function preload() {
   ravenclawVid.hide();
   hufflepuffVid.hide();
   slytherinVid.hide();
+  
+  
+  introVideo.hide();
+letterVideo.hide();
 }
 
 function setup() {
@@ -90,9 +94,6 @@ function setup() {
   houseReveal = new HouseReveal();
   wand = new Wand();
   
-  
-
-
 
   //letterVideo.onended(letterVideoIsDone);
 }
